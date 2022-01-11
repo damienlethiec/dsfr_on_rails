@@ -1,24 +1,8 @@
-# README
+# Exemple d'application Rails + Webpacker avec le module node DSFR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+3 commits pour vous permettre de vous y retrouver:
+- Commit Initial
+- Setup basique de Webpacker
+- Ajout du package @gouv/dsfr
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+L'ajout du module est très standard sous webpacker. Je n'ai pour l'instant pas de solutions clean pour import un module comme DSFR contenant du CSS avec Import Maps sous Rails.
